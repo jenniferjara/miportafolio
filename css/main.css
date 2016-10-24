@@ -1,0 +1,29 @@
+body{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	height: 100vh;
+	width: 100%;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/***-----HERO------*/
+.heroIntro{
+	margin-top: 50px;
+}
+.heroMessage{
+	position: relative;
+	padding: 30% 0%;
+}
+.iconSocial{
+	text-decoration: none;
+	margin: 3%;
+}
+.socialText{
+	text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+/*-----PROJECT-----*/
+.imgProject{
+	width: 100%; 
+}
