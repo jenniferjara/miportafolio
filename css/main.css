@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
+
 body{
 	box-sizing: border-box;
 	padding: 0px;
@@ -9,10 +11,16 @@ body{
 /***-----HERO------*/
 .heroIntro{
 	margin-top: 50px;
+	border-bottom: 1.5px dashed #000;
 }
 .heroMessage{
 	position: relative;
-	padding: 30% 0%;
+	padding: 14% 0%;
+}
+.heroMessage h2{
+	font-size: 3.5em;
+	padding: 0 0.5em 0.6em 0.5em;
+	font-family: "Pacifico", cursive;
 }
 .iconSocial{
 	text-decoration: none;
@@ -24,6 +32,16 @@ body{
     letter-spacing: 2px;
 }
 /*-----PROJECT-----*/
+.scroll{
+	height: 300px;
+	overflow-y: scroll;
+}
+.boxProject{
+	padding: 2%; 
+}
 .imgProject{
 	width: 100%; 
+}
+.tab-content .tab-pane {
+	padding: 5% 0%;
 }
