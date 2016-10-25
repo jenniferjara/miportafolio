@@ -11,7 +11,6 @@ body{
 /***-----HERO------*/
 .heroIntro{
 	margin-top: 50px;
-	border-bottom: 1.5px dashed #000;
 }
 .heroMessage{
 	position: relative;
@@ -21,10 +20,7 @@ body{
 	font-size: 3.5em;
 	padding: 0 0.5em 0.6em 0.5em;
 	font-family: "Pacifico", cursive;
-}
-.iconSocial{
-	text-decoration: none;
-	margin: 3%;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 .socialText{
 	text-transform: uppercase;
@@ -32,16 +28,49 @@ body{
     letter-spacing: 2px;
 }
 /*-----PROJECT-----*/
-.scroll{
-	height: 300px;
-	overflow-y: scroll;
-}
 .boxProject{
 	padding: 2%; 
 }
 .imgProject{
-	width: 100%; 
+	width: 80%;
+	text-align: center; 
 }
 .tab-content .tab-pane {
 	padding: 5% 0%;
+}
+/*-----About----*/
+.perfil{
+	background-image: url(../img/example.jpg);
+	background-position: 30% 30%;
+	height: 20em;
+	cursor:pointer;
+}
+/*-----contact------*/
+.borderContact{
+	border-left: 1px solid #777;
+}
+/****media***/
+
+@media (max-width: 1024px){
+    
+}
+@media (max-width: 982px){
+
+}
+@media (max-width: 768px){
+	.imgProject{
+		width: 60%; 
+	}
+	 .borderContact{
+		border-left: none;
+	}
+}
+
+@media (max-width: 640px){
+	p{
+	 	font-size: 10px;
+	 }
+	.heroMessage h2{
+		font-size: 2.5em;
+	}
 }

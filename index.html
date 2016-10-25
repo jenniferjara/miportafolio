@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	<link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css">
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+	<link type="text/css" rel="stylesheet" href="css/hover-min.css">
+	<link type="text/css" rel="stylesheet" href="css/utilities.css">
 	<link type="text/css" rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -25,10 +27,13 @@
 	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	            <ul class="nav navbar-nav navbar-right">
 	                <li>
-	                    <a href="#about">About</a>
+	                    <a href="#about">About me</a>
 	                </li>
 	                <li>
-	                    <a href="#services">Services</a>
+	                    <a href="#skills">Skills</a>
+	                </li>
+	                <li>
+	                    <a href="#proyectos">Projects</a>
 	                </li>
 	                <li>
 	                    <a href="#contact">Contact</a>
@@ -37,51 +42,109 @@
 	        </div>
 	    </div>
 	</nav>
-	<section id="hero" class="heroIntro">
+	<section id="hero" class="heroIntro dashed">
 		<div class="container">
 			<div class="heroMessage text-center">
 				<h2>Hi! I'm Jennifer Jara</h2>
 				<h3>Front-end Development</h3>
-				<a class="btn btn-default btn-lg iconSocial" href="https://linkedin.com/in/jennifer-jara">
+				<a class="btn btn-default btn-lg m-3" href="https://linkedin.com/in/jennifer-jara">
 					<i class="fa fa-linkedin-square fa-fw"></i>
 					<span class="socialText">Linkedin</span>
 				</a>
-				<a class="btn btn-default btn-lg iconSocial" href="https://github.com/jenniferjara">
+				<a class="btn btn-default btn-lg m-3" href="https://github.com/jenniferjara">
 					<i class="fa fa-github fa-fw"></i>
 					<span class="socialText">Github</span>
 				</a>
 			</div>
 		</div>
 	</section>
-	<section id="proyectos" class="projectIntro">
+	<section id="proyectos" class="dashed">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-xs-12">
-					<!-- Nav tabs -->
-					<ul class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#html" aria-controls="home" role="tab" data-toggle="tab">HTML</a></li>
-						<li role="presentation"><a href="#javascript" aria-controls="profile" role="tab" data-toggle="tab">JavaScript</a></li>
-						<li role="presentation"><a href="#jquery" aria-controls="messages" role="tab" data-toggle="tab">jQuery</a></li>
-					</ul>
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane active" id="html"></div>
-						<div role="tabpanel" class="tab-pane" id="javascript">...</div>
-						<div role="tabpanel" class="tab-pane" id="jquery">...</div>
+			<div class="p-5">
+				<h2 class="title">projects</h2>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#html" aria-controls="home" role="tab" data-toggle="tab">HTML y CSS</a></li>
+					<li role="presentation"><a href="#javascript" aria-controls="profile" role="tab" data-toggle="tab">JavaScript</a></li>
+					<li role="presentation"><a href="#jquery" aria-controls="messages" role="tab" data-toggle="tab">jQuery</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="html">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="boxProject">
+									<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
+									<a class="btn btn-default" href="#">View the project in GitHub</a>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="boxProject">
+									<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
+									<a class="btn btn-default" href="#">View the project in GitHub</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="javascript">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="boxProject">
+									<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
+									<a class="btn btn-default" href="#">View the project in GitHub</a>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="boxProject">
+									<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
+									<a class="btn btn-default" href="#">View the project in GitHub</a>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="boxProject">
+									<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
+									<a class="btn btn-default" href="#">View the project in GitHub</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="jquery">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="boxProject">
+									<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
+									<a class="btn btn-default" href="#">View the project in GitHub</a>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="boxProject">
+									<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
+									<a class="btn btn-default" href="#">View the project in GitHub</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-6 col-xs-12 scroll">
+
+				<!-- <div class="col-sm-6 col-xs-12 scroll">
 					<div class="boxProject">
-						<img class="imgProject" src="img/ref-1.png" alt="project-1">
+						<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
-						<a class="btn btn-default btn-lg text-center btn btn-default btn-lg" href="#">View the project in GitHub</a>
+						<a class="btn btn-default text-center" href="#">View the project in GitHub</a>
 					</div>
 					<div class="boxProject">
-						<img class="imgProject" src="img/ref-1.png" alt="project-1">
+						<img class="imgProject center-block" src="img/ref-1.png" alt="project-1">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur a omnis voluptates! Ullam quod commodi labore hic in doloremque aperiam accusamus harum amet eius voluptatibus tempore, libero qui, porro, eaque!</p>
-						<a class="btn btn-default btn-lg text-center btn btn-default btn-lg" href="#">View the project in GitHub</a>
+						<a class="btn btn-default center-block" href="#">View the project in GitHub</a>
 					</div>
-					<!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 							  Wrapper for slides
 							  <div class="carousel-inner" role="listbox">
 							    <div class="item active">
@@ -108,7 +171,51 @@
 							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 							    <span class="sr-only">Next</span>
 							  </a>
-							</div> -->		
+							</div>		
+				</div> -->
+			</div>
+		</div>
+	</section>
+	<section id="about" class="dashed">
+		<div class="container">
+			<div class="p-5">
+				<h2 class="title">About me</h2>
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="perfil"></div>
+					</div>
+					<div class="col-xs-6">
+						<div class="center-block">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quas cumque molestiae laborum non perspiciatis quod, culpa minima amet! Est, minus incidunt dicta nihil facilis earum, quae possimus eveniet nulla.</p>
+						</div>
+						<div class="center-block">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quas cumque molestiae laborum non perspiciatis quod, culpa minima amet! Est, minus incidunt dicta nihil facilis earum, quae possimus eveniet nulla.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="p-5">
+				<h2 class="title">get in touch</h2>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<div class="p-5">
+							<a href="#" class="fa fa-github fa-fw center-block fa-5x"></a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="borderContact p-5">
+							<a href="#" class="fa fa-linkedin-square fa-fw center-block fa-5x"></a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="borderContact p-5">
+							<a href="#" class="fa fa-envelope fa-fw center-block fa-5x"></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
