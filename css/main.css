@@ -9,11 +9,24 @@ body{
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*-----navbar-----*/
-.navbar-default .navbar-nav> li > a:hover{
-
+.navbar-fixed-side{
+	background-color: #777;
+	border: none;
+}
+.navbar-default .navbar-nav> li > a{
+	color: #fff;
 }
 #lista{
 	margin: 100% 0%;
+}
+.navbar-header > a > i{
+	color: #fff;
+}
+.navbar-header button{
+	background-color: #fff;
+}
+.navbar{
+	margin-bottom: 0px;
 }
 /***-----HERO------*/
 .heroIntro{
@@ -29,7 +42,7 @@ body{
 }
 .heroMessage h2{
 	font-size: 3.5em;
-	padding: 0 0.5em 0.6em 0.5em;
+	padding: 0 0 0.5em 0;
 	font-family: "Pacifico", cursive;
 }
 .socialText{
@@ -38,12 +51,9 @@ body{
     letter-spacing: 2px;
 }
 /*-----PROJECT-----*/
-.boxProject{
-	padding: 2%; 
-}
 .imgProject{
-	width: 80%;
-	text-align: center; 
+	width: 100%;
+	border-radius: 8px;
 }
 .tab-content .tab-pane {
 	padding: 5% 0%;
@@ -51,6 +61,34 @@ body{
 .portfolio-item {
     margin-bottom: 25px;
 }
+.card {
+	cursor: pointer;
+	perspective: 600;
+	position: relative;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 1s ease-in-out;
+	width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
 /*-----About----*/
 .perfil{
 	background-image: url(../img/example.jpg);
@@ -78,18 +116,20 @@ footer i {
 
 @media (max-width: 1024px){
     .navbar-brand{
-    	padding: 5px 35px;
+    	padding: 5px 30px;
     }
 }
 @media (max-width: 982px){
-
+	.socialText{
+		letter-spacing: 0px;
+	}
 }
 @media (max-width: 768px){
 	#lista{
 		margin: 0%;
 	}
 	.imgProject{
-		width: 60%; 
+		width: 70%; 
 	}
 	 .borderContact{
 		border-left: none;
