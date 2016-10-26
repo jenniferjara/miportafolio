@@ -7,6 +7,12 @@ a:hover {
 	color: #000;
 }
 /*----*/
+.h-vh{
+	height: 100vh;
+}
+.dNone{
+	display: none;
+}
 .dashed{
 	border-bottom: 1.5px dashed #000;
 }
