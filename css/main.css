@@ -79,19 +79,18 @@ body{
   width: 100%;
   height: 100%;
 }
-.card .side a{
-	color: #777;
-	font-size: 2em;
-}
 .card .back {
   background: #eaeaed;
-  color: #0087cc;
-  text-align: center;
   transform: rotateY(180deg);
   position: absolute;
   top: 0;
+  color: #777;
+  font-size: 2em;
+  text-transform: uppercase;
 }
-
+.col-sm-4 .card .back {
+	font-size: 1.3em;
+}
 /*-----About----*/
 .perfil{
 	background-image: url(../img/example.jpg);
@@ -131,6 +130,9 @@ footer i {
 	#lista{
 		margin: 0%;
 	}
+	.card{
+		width: 70%;
+	}
 	.imgProject{
 		width: 70%; 
 	}
@@ -140,9 +142,6 @@ footer i {
 }
 
 @media (max-width: 640px){
-	p{
-	 	font-size: 10px;
-	 }
 	.heroMessage h2{
 		font-size: 2.5em;
 	}
