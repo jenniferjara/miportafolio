@@ -7,6 +7,11 @@ a:hover {
 	color: #000;
 }
 /*----*/
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .h-vh{
 	height: 100vh;
 }

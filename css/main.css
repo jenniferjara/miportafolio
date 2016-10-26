@@ -63,10 +63,23 @@ body{
 .borderContact{
 	border-left: 1px solid #777;
 }
+/*-----footer----*/
+.ending{
+	background-color: #777;
+	color: #fff;
+	padding: 2% 0%;
+	text-align: center;
+	z-index: 2;
+}
+footer i {
+	margin: 0% 2% 0% 0;
+}
 /****media***/
 
 @media (max-width: 1024px){
-    
+    .navbar-brand{
+    	padding: 5px 35px;
+    }
 }
 @media (max-width: 982px){
 
@@ -90,4 +103,7 @@ body{
 	.heroMessage h2{
 		font-size: 2.5em;
 	}
+	 .navbar-brand{
+    	padding: 5px 20px;
+    }
 }
