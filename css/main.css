@@ -63,7 +63,6 @@ body{
 }
 .card {
 	cursor: pointer;
-	perspective: 600;
 	position: relative;
 	height: 100%;
 	transform-style: preserve-3d;
@@ -78,11 +77,15 @@ body{
   border-radius: 6px;
   overflow: hidden;
   width: 100%;
+  height: 100%;
+}
+.card .side a{
+	color: #777;
+	font-size: 2em;
 }
 .card .back {
   background: #eaeaed;
   color: #0087cc;
-  line-height: 150px;
   text-align: center;
   transform: rotateY(180deg);
   position: absolute;
