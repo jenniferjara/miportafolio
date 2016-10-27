@@ -9,7 +9,7 @@
 	<link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css">
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
 	<link type="text/css" rel="stylesheet" href="css/navbar-fixed-side.css">
-	<link type="text/css" rel="stylesheet" href="css/hover-min.css">
+	<link type="text/css" rel="stylesheet" href="css/animate.css">
 	<link type="text/css" rel="stylesheet" href="css/utilities.css">
 	<link type="text/css" rel="stylesheet" href="css/main.css">
 </head>
@@ -17,25 +17,22 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-2 col-lg-2">
-				<nav class="navbar navbar-default navbar-fixed-side">
-					<div class="container">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand topnav" href="#hero">Jennifer</i></a>
-						</div>
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul id="lista" class="nav navbar-nav navbar-right navbarCenter">
-								<li class="socialText" id="aboutSide"><a href="#about">About me</a></li>
-								<!-- <li><a href="#skills">Skills</a></li> -->
-								<li class="socialText"><a href="#proyectos">Projects</a></li>
-								<li class="socialText" id="contactSide"><a href="#contact">Contact</a></li>
-							</ul>
-						</div>
+				<nav class="navbar navbar-default navbar-fixed-side navbar-fixed-top">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand topnav" href="#hero"></a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul id="lista" class="nav navbar-nav navbar-right navbarCenter">
+							<li class="socialText" id="aboutSide"><a href="#about">About me</a></li>
+							<li class="socialText"><a href="#proyectos">Projects</a></li>
+							<li class="socialText" id="contactSide"><a href="#contact">Contact</a></li>
+						</ul>
 					</div>
 				</nav>
 			</div>
@@ -72,15 +69,34 @@
 					</div>
 				</section>
 				<section id="skill">
-					<div class="row">
-						<div class="col-sm-6 col-xs-12">
-							<h2>Habilidades</h2>
-							<p>Durante el Bootcamp adquiri muchos muchos conocimientos, y estos son algunos de ellos;</p>
+					<h2 class="text-center">Habilidades</h2>
+					<p class="text-center">Durante el Bootcamp adquiri muchos muchos conocimientos, y estos son algunos de ellos;</p>
+					<div class="icon-hab">
+						<div class="iconos">
+							<img class="center-block" src="img/iconos/html.png" alt="html">
 						</div>
-						<div class="col-sm-6 col-xs-12">
-							<div></div>
-							<div></div>
-							<div></div>
+						<div class="iconos">
+							<img class="center-block" src="img/iconos/css.png" alt="html">
+						</div>
+						<div class="iconos">
+							<img class="center-block" src="img/iconos/javascript.png" alt="html">
+						</div>
+						<div class="iconos">
+							<img class="center-block" src="img/iconos/jquery.png" alt="html">
+						</div>
+					</div>
+					<div class="icon-hab">
+						<div class="iconos">
+							<img class="center-block" src="img/iconos/bootstrap.png" alt="html">
+						</div>
+						<div class="iconos">
+							<img class="center-block" src="img/iconos/git.png" alt="html">
+						</div>
+						<div class="iconos">
+							<img class="center-block" src="img/iconos/javascript.png" alt="html">
+						</div>
+						<div class="iconos">
+							<img class="center-block" src="img/iconos/ps.png" alt="html">
 						</div>
 					</div>
 				</section>
@@ -242,10 +258,10 @@
 	<footer class="ending">
 		<i class="fa fa-rebel fa-2x"></i>
 		<span class="socialText">jennifer jara | 2016</span>
-	</footer>
+	</footer>  
 
 	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
