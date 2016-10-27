@@ -9,6 +9,11 @@ var iniciar = function(){
 	var skill = $(".iconos img");
 	skill.mouseenter(movimiento);
 	skill.mouseleave(quitar);
+	$("#changeWord").changeWords({
+        time: 1000,
+        animate: "bounce",
+        selector: "span",
+        repeat:true
+      });
 }
 $(document).ready(iniciar);
-

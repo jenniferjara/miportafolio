@@ -10,18 +10,19 @@ body{
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*-----navbar-----*/
-.navbar-fixed-top{
-	background-color: #777;
+.navbar-change{
+	background-color: #748F80;
 	border: none;
+	padding: 15px 0px;
 }
-.navbar-default .navbar-nav> li > a{
-	color: #fff;
-}
-.navbar-header > a > i{
+.navbar-default .navbar-nav > li > a{
 	color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar{
 	background-color: #fff;
+}
+.navbar-header .navbar-toggle:hover{
+	background-color: #BCCEB8;
 }
 /***-----HERO------*/
 .heroIntro{
@@ -36,7 +37,7 @@ body{
 	padding: 14% 0%;
 }
 .heroMessage h2{
-	font-size: 3.5em;
+	font-size: 4em;
 	padding: 0 0 0.5em 0;
 	font-family: "Pacifico", cursive;
 	animation: bounceIn 2s;
@@ -46,6 +47,22 @@ body{
     font-size: 1em;
     letter-spacing: 2px;
     text-align: center;
+}
+/*-----About----*/
+.perfil{
+	background-image: url(../img/example.jpg);
+	background-position: 30% 30%;
+	background-repeat: no-repeat;
+	height: 20em;
+	cursor:pointer;
+}
+#changeWord{
+	font-size: 3em;
+	font-weight: bold;
+}
+#changeWord span{
+	color: #834F65;
+	margin-left: 2%;
 }
 /*-----Habilidades---*/
 .icon-hab{
@@ -98,28 +115,21 @@ body{
 .col-sm-4 .card .back {
 	font-size: 1.3em;
 }
-/*-----About----*/
-.perfil{
-	background-image: url(../img/example.jpg);
-	background-position: 30% 30%;
-	background-repeat: no-repeat;
-	height: 20em;
-	cursor:pointer;
-}
 /*-----contact------*/
 .borderContact{
 	border-left: 1px solid #777;
 }
 /*-----footer----*/
 .ending{
-	background-color: #777;
+	background-color: #748F80;
 	color: #fff;
 	padding: 2% 0%;
 	text-align: center;
 	z-index: 2;
 }
-footer i {
+.ending i {
 	margin: 0% 2% 0% 0;
+	font-size: 1.4em;
 }
 
 /****media***/
@@ -134,10 +144,14 @@ footer i {
 	}
 }
 @media (max-width: 768px){
-	/* .navbar-tab{
-		background-color: #222;
-	    	border-color: transparent;
-	} */
+	/*---NAVBAR---*/
+	.navbar-change{
+		padding: 0px;
+	}
+	/*-----about----*/
+	#changeWord{
+		font-size: 2.2em;
+	}
 	/******PROYECTS*****/
 	.card{
 		width: 70%;
