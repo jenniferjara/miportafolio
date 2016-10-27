@@ -2,6 +2,7 @@
 
 body{
 	box-sizing: border-box;
+	line-height: 1.42857;
 	padding: 0px;
 	margin: 0px;
 	height: 100vh;
@@ -9,29 +10,19 @@ body{
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*-----navbar-----*/
-.navbar-fixed-side{
+.navbar-fixed-top{
 	background-color: #777;
 	border: none;
 }
 .navbar-default .navbar-nav> li > a{
 	color: #fff;
 }
-#lista{
-	margin: 100% 0%;
-}
 .navbar-header > a > i{
 	color: #fff;
 }
-.navbar-header button{
+.navbar-default .navbar-toggle .icon-bar{
 	background-color: #fff;
 }
-.navbar{
-	margin-bottom: 0px;
-}
-.navbar-collapse{
-		padding-left: 0;
-		padding-right: 0;
-	}
 /***-----HERO------*/
 .heroIntro{
 	background: url(../img/banner.jpg) no-repeat center center;
@@ -48,6 +39,7 @@ body{
 	font-size: 3.5em;
 	padding: 0 0 0.5em 0;
 	font-family: "Pacifico", cursive;
+	animation: bounceIn 2s;
 }
 .socialText{
 	text-transform: uppercase;
@@ -142,28 +134,32 @@ footer i {
 	}
 }
 @media (max-width: 768px){
-	.navbar-fixed-side{
-		margin-right: 0px;
-		margin-left: 0px;
-	}
-	#lista{
-		margin: 0%;
-	}
+	/* .navbar-tab{
+		background-color: #222;
+	    	border-color: transparent;
+	} */
+	/******PROYECTS*****/
 	.card{
 		width: 70%;
 	}
 	.imgProject{
 		width: 70%; 
 	}
-	 .borderContact{
-		border-left: none;
-	}
+	/****SKILL***/
 	.iconos{
 		width: 48%;
+	}
+	/******CONTACTO****/
+	.borderContact{
+		border-left: none;
 	}
 }
 
 @media (max-width: 640px){
+	/******NAVBAR*****/
+	.navbar-brand img {
+		display: none;
+	}
 	.heroMessage h2{
 		font-size: 2.5em;
 	}
