@@ -2,18 +2,18 @@
 
 body{
 	box-sizing: border-box;
-	line-height: 1.42857;
 	padding: 0px;
 	margin: 0px;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
+	background-color: #f4f4f4;
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*-----navbar-----*/
 .navbar-change{
-	background-color: #748F80;
+	background-color: #3D5C4A;
 	border: none;
-	padding: 15px 0px;
+	padding: 5px 0px;
 }
 .navbar-default .navbar-nav > li > a{
 	color: #fff;
@@ -26,15 +26,16 @@ body{
 }
 /***-----HERO------*/
 .heroIntro{
-	background: url(../img/banner.jpg) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-	padding-top: 50px;
+	/* background: url(../img/banner.jpg) no-repeat center center;
+	    background-size: cover;
+	    background-attachment: fixed;*/
+	background-color: #3D5C4A;
+	padding-top: 40px;
 }
 .heroMessage{
 	color: #FFF;
 	position: relative;
-	padding: 14% 0%;
+	padding: 10% 0%;
 }
 .heroMessage h2{
 	font-size: 4em;
@@ -80,7 +81,7 @@ body{
 	border-radius: 8px;
 }
 .tab-content .tab-pane {
-	padding: 5% 0%;
+	padding: 5% 4%;
 }
 .portfolio-item {
     margin-bottom: 25px;
@@ -121,9 +122,9 @@ body{
 }
 /*-----footer----*/
 .ending{
-	background-color: #748F80;
+	background-color: #3D5C4A;
 	color: #fff;
-	padding: 2% 0%;
+	padding: 4% 0%;
 	text-align: center;
 	z-index: 2;
 }
@@ -168,7 +169,6 @@ body{
 		border-left: none;
 	}
 }
-
 @media (max-width: 640px){
 	/******NAVBAR*****/
 	.navbar-brand img {
@@ -177,7 +177,10 @@ body{
 	.heroMessage h2{
 		font-size: 2.5em;
 	}
-	 .navbar-brand{
+	.navbar-brand{
     	padding: 5px 20px;
+    }
+    .col-sm-6 .card .back{
+    	font-size: 1.3em;
     }
 }
