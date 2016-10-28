@@ -34,7 +34,7 @@ a:hover {
 	height: 100vh;
 }
 .dashed{
-	border-bottom: 1.5px dashed #000;
+	border-bottom: 2px dashed #000;
 }
 .m-3{
 	margin: 3%;

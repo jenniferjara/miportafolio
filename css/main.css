@@ -30,21 +30,21 @@ body{
 	    background-size: cover;
 	    background-attachment: fixed;*/
 	background-color: #3D5C4A;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 50px;
+	/*padding-bottom: 20px; */
 }
 .heroMessage{
 	color: #FFF;
-	/* padding: 10% 0%; */
-	position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
+	padding: 10% 0%;
+	/* position: absolute;
+	    top: 40px;
+	    left: 0px;
+	    width: 100%; */
 }
 .heroMessage h2{
 	font-size: 4em;
 	padding: 0 0 0.5em 0;
-	/* font-family: "Pacifico", cursive; */
+	font-family: "Pacifico", cursive;
 }
 .socialText{
 	text-transform: uppercase;
@@ -170,19 +170,19 @@ body{
 	}
 }
 @media (max-width: 882px){
-	.heroMessage{
+	/* .heroMessage{
 		padding: 8% 0%;
-	}
+	} */
 }
 @media (max-width: 768px){
 	/*---NAVBAR---*/
 	.navbar-change{
 		padding: 0px;
 	}
-	/* ***HERO***/
+	/* ***HERO**
 	.heroMessage{
 		padding: 6% 0%;
-	}
+	} */
 	/*-----about----*/
 	
 	/******PROYECTOS*****/
