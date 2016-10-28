@@ -46,7 +46,7 @@ body{
 
 /* ---- stats.js ---- */
 
-.count-particles{
+/* .count-particles{
   background: #000022;
   position: absolute;
   top: 48px;
@@ -80,17 +80,17 @@ body{
 
 .count-particles{
   border-radius: 0 0 3px 3px;
-}
+} */
 
 
 /* ---- particles.js container ---- */
 
 #particles-js{
-  background-color: #b61924;
+  background-color: #3D5C4A;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   position: relative;
-  top: 0;
+  padding-top: 40px;
 }

@@ -4,7 +4,7 @@ body{
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	background-color: #f4f4f4;
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -31,17 +31,20 @@ body{
 	    background-attachment: fixed;*/
 	background-color: #3D5C4A;
 	padding-top: 40px;
+	padding-bottom: 20px;
 }
 .heroMessage{
 	color: #FFF;
-	position: relative;
-	padding: 10% 0%;
+	/* padding: 10% 0%; */
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
 }
 .heroMessage h2{
 	font-size: 4em;
 	padding: 0 0 0.5em 0;
-	font-family: "Pacifico", cursive;
-	animation: bounceIn 2s;
+	/* font-family: "Pacifico", cursive; */
 }
 .socialText{
 	text-transform: uppercase;
@@ -49,7 +52,7 @@ body{
     letter-spacing: 2px;
     text-align: center;
 }
-/*-----About----*/
+/********ABOUT*******/
 .perfil{
 	background-image: url(../img/example.jpg);
 	background-position: 30% 30%;
@@ -57,15 +60,38 @@ body{
 	height: 20em;
 	cursor:pointer;
 }
+.aboutText{
+	padding: 5% 6% 0% 6%;
+	font-size: 1.2em;
+	text-align: justify-all;
+}
 #changeWord{
 	font-size: 3em;
 	font-weight: bold;
+	padding: 6% 0%;
 }
 #changeWord span{
 	color: #834F65;
 	margin-left: 2%;
+	font-size: 1.2em;
 }
 /*-----Habilidades---*/
+.skill{
+	background-image: url(../img/cubes.png);
+	background-repeat: repeat;
+}
+.skill p:first-child{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1.2em;
+} 
+.power {
+	font-size: 3em;
+	text-transform: uppercase;
+}
+.power i{
+	margin-left: 22px;
+}
 .icon-hab{
 	padding-right: 3%;
 	padding-left: 3%;
@@ -124,12 +150,11 @@ body{
 .ending{
 	background-color: #3D5C4A;
 	color: #fff;
-	padding: 4% 0%;
+	padding: 3% 0%;
 	text-align: center;
-	z-index: 2;
 }
 .ending i {
-	margin: 0% 2% 0% 0;
+	margin: 0% 3% 0% 0;
 	font-size: 1.4em;
 }
 
@@ -144,16 +169,23 @@ body{
 		letter-spacing: 0px;
 	}
 }
+@media (max-width: 882px){
+	.heroMessage{
+		padding: 8% 0%;
+	}
+}
 @media (max-width: 768px){
 	/*---NAVBAR---*/
 	.navbar-change{
 		padding: 0px;
 	}
-	/*-----about----*/
-	#changeWord{
-		font-size: 2.2em;
+	/* ***HERO***/
+	.heroMessage{
+		padding: 6% 0%;
 	}
-	/******PROYECTS*****/
+	/*-----about----*/
+	
+	/******PROYECTOS*****/
 	.card{
 		width: 70%;
 	}
@@ -169,7 +201,17 @@ body{
 		border-left: none;
 	}
 }
+@media (max-width: 680px){
+	/* ***HERO**
+	.heroMessage{
+		padding: 6% 0%;
+	}
+}
 @media (max-width: 640px){
+	/* ***HERO**
+	.heroMessage{
+		padding: 4% 0%;
+	} */
 	/******NAVBAR*****/
 	.navbar-brand img {
 		display: none;
@@ -180,6 +222,18 @@ body{
 	.navbar-brand{
     	padding: 5px 20px;
     }
+    /****ABOUT**/
+    #changeWord{
+		font-size: 2em;
+	}
+    /***SKILL***/
+    #skill p:first-child{
+		font-size: 1em;
+	}
+    .power {
+		font-size: 2em;
+	}
+    /*****PROYECTOS***/
     .col-sm-6 .card .back{
     	font-size: 1.3em;
     }
