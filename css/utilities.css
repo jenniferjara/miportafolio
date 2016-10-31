@@ -4,7 +4,7 @@ a{
 }
 a:hover {
 	text-decoration: none;
-	color: #000;
+	color: #6CB5AC;
 }
 a:visited {
 	color: #000;
@@ -58,13 +58,16 @@ a:visited {
 	margin: 3% 3% 3% 0%;
 }
 .pd{
-	padding: 7% 0%;
+	padding: 7% 2%;
 }
 .title{
+	font-family: "BebasNeue";
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
 	margin-bottom: 5%;
+	font-size: 4em;
+	color: #333;
 }
 .ws{
 	white-space: pre;

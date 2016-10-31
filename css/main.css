@@ -30,7 +30,7 @@ body{
 }
 /***-----HERO------*/
 .heroIntro{
-	background: url(../img/top-bg.jpg);
+	background: url(../img/hero-bg.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -49,7 +49,7 @@ body{
 }
 .tipeo{
 	text-align: center;
-    font-size: 2.3em;
+    font-size: 2.5em;
     margin-bottom: 4%;
 }
 .socialText{
@@ -107,8 +107,7 @@ body{
 	margin-left: 22px;
 }
 .icon-hab{
-	padding-right: 3%;
-	padding-left: 3%;
+	padding: 2% 3%;
 }
 .iconos{
 	display: inline-block;
@@ -162,96 +161,12 @@ body{
 }
 /*-----footer----*/
 .ending{
-	background-color: #31416c;
+	background-color: #2a344e;
 	color: #fff;
-	padding: 3% 0%;
+	padding: 2% 0%;
 	text-align: center;
 }
 .ending i {
-	margin: 0% 3% 0% 0;
-	font-size: 1.4em;
-}
-
-/****media***/
-@media (max-width: 1024px){
-    .navbar-brand{
-    	padding: 5px 30px;
-    }
-}
-@media (max-width: 982px){
-	.socialText{
-		letter-spacing: 0px;
-	}
-	.heroMessage h1{
-		font-size: 5em;
-	}
-}
-@media (max-width: 882px){
-	.heroMessage{
-		padding: 8% 4%;
-	}
-}
-@media (max-width: 768px){
-	/*---NAVBAR---*/
-	.navbar-change{
-		padding: 0px;
-	}
-	/****HERO**/
-	.heroMessage{
-		padding: 10% 6%;
-	}
-	/******PROYECTOS*****/
-	.card{
-		width: 70%;
-	}
-	.imgProject{
-		width: 70%; 
-	}
-	/****habSection***/
-	.iconos{
-		width: 48%;
-	}
-	/******CONTACTO****/
-	.borderContact{
-		border-left: none;
-	}
-}
-@media (max-width: 640px){
-	/******NAVBAR*****/
-	.navbar-brand img {
-		display: none;
-	}
-	.navbar-brand{
-    	padding: 5px 20px;
-    }
-    /****HERO**/
-	.heroMessage {
-		text-align: center;
-	    padding: 6% 4% 10% 4%;
-	}
-	.heroMessage h1{
-		text-align: center;
-		padding: 0 0 0.3em 0;
-		font-size: 4em;
-	}
-    /****aboutSection**/
-    #changeWord{
-		font-size: 2em;
-	}
-    /***habSection***/
-    #habSection p:first-child{
-		font-size: 1em;
-	}
-    .power {
-		font-size: 2em;
-	}
-    /*****PROYECTOS***/
-    .col-sm-6 .card .back{
-    	font-size: 1.3em;
-    }
-}
-@media (max-width: 640px){
-	.heroMessage h1{
-		font-size: 3em; 
-	}
+	margin: 0% 2% 0% 0;
+	font-size: 1.2em;
 }

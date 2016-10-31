@@ -1,0 +1,89 @@
+/****media***/
+@media (max-width: 1024px){
+    .navbar-brand{
+    	padding: 5px 30px;
+    }
+}
+@media (max-width: 982px){
+	.socialText{
+		letter-spacing: 0px;
+	}
+	.heroMessage h1{
+		font-size: 5em;
+	}
+}
+@media (max-width: 882px){
+	.heroMessage{
+		padding: 8% 4%;
+	}
+}
+@media (max-width: 768px){
+	/*---NAVBAR---*/
+	.navbar-change{
+		padding: 0px;
+	}
+	/****HERO**/
+	.heroMessage{
+		padding: 10% 6%;
+	}
+	/******PROYECTOS*****/
+	.card{
+		width: 70%;
+	}
+	.imgProject{
+		width: 70%; 
+	}
+	/****habSection***/
+	.iconos{
+		width: 48%;
+	}
+	/******CONTACTO****/
+	.borderContact{
+		border-left: none;
+	}
+}
+@media (max-width: 640px){
+	/******NAVBAR*****/
+	.navbar-brand img {
+		display: none;
+	}
+	.navbar-brand{
+    	padding: 5px 20px;
+    }
+    /****HERO**/
+	.heroMessage {
+		text-align: center;
+	    padding: 6% 4% 10% 4%;
+	}
+	.heroMessage h1{
+		text-align: center;
+		padding: 0 0 0.3em 0;
+		font-size: 4em;
+	}
+    /****aboutSection**/
+    #changeWord{
+		font-size: 2em;
+	}
+    /***habSection***/
+    #habSection p:first-child{
+		font-size: 1.4em;
+	}
+    .power {
+		font-size: 2em;
+	}
+    /*****PROYECTOS***/
+    .col-sm-6 .card .back{
+    	font-size: 1.3em;
+    }
+}
+@media (max-width: 490px){
+	.tipeo{
+		font-size: 2em;
+	}
+	.heroMessage h1{
+		font-size: 3em; 
+	}
+	.title{
+		font-size: 2em;
+	}
+}
