@@ -145,7 +145,7 @@ body{
 .col-sm-4 .card .back {font-size: 1.3em;}
 /*-----contact------*/
 .contacto{
-	background-image: url("../img/contacto.png");
+	background-image: url("../img/contacto.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -154,8 +154,7 @@ body{
 .contacto h2{color: #fff;}
 .contacto p{
 	letter-spacing: 2px;
-    text-align: justify;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 .contacto a{color: #fff;}
 .contacto a:hover{color: #6CB5AC;}
@@ -168,6 +167,11 @@ body{
 	text-align: center;
 }
 .ending i {
-	margin: 0% 2% 0% 0;
+	margin: 0% 1% 0% 1%;
 	font-size: 1.2em;
 }
+.ending a{
+	color: #fff;
+	font-weight: bold;
+}
+.ending a:hover{color: #6CB5AC;}
