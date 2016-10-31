@@ -7,17 +7,19 @@ body{
 	margin: 0px;
 	height: 100vh;
 	width: 100%;
+	background-image: url(../img/cubes.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
 	background-color: #f4f4f4;
 }
+
 /*-----navbar-----*/
 .navbar-change{
 	background-color: transparent;
 	border: none;
 	padding: 5px 0px;
 }
-.navbar-default .navbar-nav > li > a{
-	color: #fff;
-}
+.navbar-default .navbar-nav > li > a{color: #fff;}
 .navbar-default .navbar-nav > li > a:hover{
 	color: #fff;
 	background-color: #6CB5AC;
@@ -26,7 +28,7 @@ body{
 	background-color: #fff;
 }
 .navbar-header .navbar-toggle:hover{
-	background-color: #BCCEB8;
+	background-color: #6CB5AC;
 }
 /***-----HERO------*/
 .heroIntro{
@@ -69,8 +71,10 @@ body{
 .aboutText{
 	padding: 5% 6% 0% 6%;
 	font-size: 1.2em;
-	text-align: justify-all;
+	text-align: justify;
+    letter-spacing: 0.2px;
 }
+.youtube{font-weight: bolder;}
 .youtube:hover{
 	color: #834F65;
 	font-weight: bold;
@@ -90,10 +94,6 @@ body{
 	margin-left: 2%;
 }
 /*-----Habilidades---*/
-.hab{
-	background-image: url(../img/cubes.png);
-	background-repeat: repeat;
-}
 .hab p:first-child{
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -103,12 +103,8 @@ body{
 	font-size: 3em;
 	text-transform: uppercase;
 }
-.power i{
-	margin-left: 22px;
-}
-.icon-hab{
-	padding: 2% 3%;
-}
+.power i{margin-left: 22px;}
+.icon-hab{padding: 2% 3%;}
 .iconos{
 	display: inline-block;
 	width: 24%;
@@ -119,12 +115,8 @@ body{
 	width: 100%;
 	border-radius: 8px;
 }
-.tab-content .tab-pane {
-	padding: 5% 4%;
-}
-.portfolio-item {
-    margin-bottom: 25px;
-}
+.tab-content .tab-pane {padding: 5% 4%;}
+.portfolio-item {margin-bottom: 25px;}
 .card {
 	cursor: pointer;
 	position: relative;
@@ -133,9 +125,7 @@ body{
 	transition: all 1s ease-in-out;
 	width: 100%;
 }
-.card:hover {
-  transform: rotateY(180deg);
-}
+.card:hover {transform: rotateY(180deg);}
 .card .side {
   backface-visibility: hidden;
   border-radius: 6px;
@@ -148,17 +138,28 @@ body{
   transform: rotateY(180deg);
   position: absolute;
   top: 0;
-  color: #777;
+  color: #333;
   font-size: 2em;
   text-transform: uppercase;
 }
-.col-sm-4 .card .back {
-	font-size: 1.3em;
-}
+.col-sm-4 .card .back {font-size: 1.3em;}
 /*-----contact------*/
-.borderContact{
-	border-left: 1px solid #777;
+.contacto{
+	background-image: url("../img/contacto.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
 }
+.contacto h2{color: #fff;}
+.contacto p{
+	letter-spacing: 2px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+.contacto a{color: #fff;}
+.contacto a:hover{color: #6CB5AC;}
+
 /*-----footer----*/
 .ending{
 	background-color: #2a344e;
