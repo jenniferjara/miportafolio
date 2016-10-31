@@ -6,6 +6,9 @@ a:hover {
 	text-decoration: none;
 	color: #000;
 }
+a:visited {
+	color: #000;
+}
 /*--display--*/
 .flex {
 	display: flex;
@@ -37,10 +40,10 @@ a:hover {
 	border-bottom: 2px dashed #000;
 }
 .m-3{
-	margin: 3%;
+	margin: 3% 3% 3% 0%;
 }
-.p-5{
-	padding: 5% 0%;
+.pd{
+	padding: 8.5% 0%;
 }
 .title{
 	text-transform: uppercase;

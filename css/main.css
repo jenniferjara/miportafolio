@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
 
 body{
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
 	height: 100vh;
 	width: 100%;
 	background-color: #f4f4f4;
-	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*-----navbar-----*/
 .navbar-change{
-	background-color: #3D5C4A;
+	background-color: transparent;
 	border: none;
-	padding: 5px 0px;
 }
 .navbar-default .navbar-nav > li > a{
 	color: #fff;
@@ -26,25 +25,26 @@ body{
 }
 /***-----HERO------*/
 .heroIntro{
-	/* background: url(../img/banner.jpg) no-repeat center center;
-	    background-size: cover;
-	    background-attachment: fixed;*/
-	background-color: #3D5C4A;
-	padding-top: 50px;
-	/*padding-bottom: 20px; */
+	background: url(../img/top-bg.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 60px;
 }
 .heroMessage{
 	color: #FFF;
-	padding: 10% 0%;
-	/* position: absolute;
-	    top: 40px;
-	    left: 0px;
-	    width: 100%; */
+	padding: 15% 10%;
+	text-align: right;
 }
 .heroMessage h2{
-	font-size: 4em;
+	font-size: 6em;
 	padding: 0 0 0.5em 0;
 	font-family: "Pacifico", cursive;
+	text-align: left;
+}
+.heroMessage h3{
+	text-align: left;
+	margin-left: 5%;
 }
 .socialText{
 	text-transform: uppercase;
@@ -65,15 +65,19 @@ body{
 	font-size: 1.2em;
 	text-align: justify-all;
 }
+.youtube:hover{
+	color: #834F65;
+	font-weight: bold;
+	text-decoration: line-through;
+}
 #changeWord{
-	font-size: 3em;
+	font-size: 2.8em;
 	font-weight: bold;
 	padding: 6% 0%;
 }
 #changeWord span{
 	color: #834F65;
 	margin-left: 2%;
-	font-size: 1.2em;
 }
 /*-----Habilidades---*/
 .skill{
@@ -148,7 +152,7 @@ body{
 }
 /*-----footer----*/
 .ending{
-	background-color: #3D5C4A;
+	background-color: #484d60;
 	color: #fff;
 	padding: 3% 0%;
 	text-align: center;
@@ -168,21 +172,24 @@ body{
 	.socialText{
 		letter-spacing: 0px;
 	}
+	.heroMessage h2{
+		font-size: 5em;
+	}
 }
 @media (max-width: 882px){
-	/* .heroMessage{
-		padding: 8% 0%;
-	} */
+	.heroMessage{
+		padding: 8%;
+	}
 }
 @media (max-width: 768px){
 	/*---NAVBAR---*/
 	.navbar-change{
 		padding: 0px;
 	}
-	/* ***HERO**
+	/* ***HERO**/
 	.heroMessage{
-		padding: 6% 0%;
-	} */
+		padding: 10% 6%;
+	}
 	/*-----about----*/
 	
 	/******PROYECTOS*****/
@@ -201,27 +208,28 @@ body{
 		border-left: none;
 	}
 }
-@media (max-width: 680px){
-	/* ***HERO**
-	.heroMessage{
-		padding: 6% 0%;
-	}
-}
 @media (max-width: 640px){
-	/* ***HERO**
-	.heroMessage{
-		padding: 4% 0%;
-	} */
 	/******NAVBAR*****/
 	.navbar-brand img {
 		display: none;
 	}
-	.heroMessage h2{
-		font-size: 2.5em;
-	}
 	.navbar-brand{
     	padding: 5px 20px;
     }
+    /****HERO**/
+	.heroMessage {
+		text-align: center;
+	    padding: 6% 4% 10% 4%;
+	}
+	.heroMessage h2{
+		text-align: center;
+		padding: 0 0 0.3em 0;
+		font-size: 4em;
+	}
+	.heroMessage h3{
+		text-align: center;
+		margin-left: 0;
+	}
     /****ABOUT**/
     #changeWord{
 		font-size: 2em;
@@ -237,4 +245,9 @@ body{
     .col-sm-6 .card .back{
     	font-size: 1.3em;
     }
+}
+@media (max-width: 640px){
+	.heroMessage h2{
+		font-size: 3em; 
+	}
 }
