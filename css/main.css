@@ -36,13 +36,13 @@ body{
 	padding: 15% 10%;
 	text-align: right;
 }
-.heroMessage h2{
+.heroMessage h1{
 	font-size: 6em;
 	padding: 0 0 0.5em 0;
 	font-family: "Pacifico", cursive;
 	text-align: left;
 }
-.heroMessage h3{
+.heroMessage h2{
 	text-align: left;
 	margin-left: 5%;
 }
@@ -172,7 +172,7 @@ body{
 	.socialText{
 		letter-spacing: 0px;
 	}
-	.heroMessage h2{
+	.heroMessage h1{
 		font-size: 5em;
 	}
 }
@@ -221,12 +221,12 @@ body{
 		text-align: center;
 	    padding: 6% 4% 10% 4%;
 	}
-	.heroMessage h2{
+	.heroMessage h1{
 		text-align: center;
 		padding: 0 0 0.3em 0;
 		font-size: 4em;
 	}
-	.heroMessage h3{
+	.heroMessage h2{
 		text-align: center;
 		margin-left: 0;
 	}
@@ -247,7 +247,7 @@ body{
     }
 }
 @media (max-width: 640px){
-	.heroMessage h2{
+	.heroMessage h1{
 		font-size: 3em; 
 	}
 }
