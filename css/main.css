@@ -13,9 +13,14 @@ body{
 .navbar-change{
 	background-color: transparent;
 	border: none;
+	padding: 5px 0px;
 }
 .navbar-default .navbar-nav > li > a{
 	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+	background-color: #6CB5AC;
 }
 .navbar-default .navbar-toggle .icon-bar{
 	background-color: #fff;
@@ -33,7 +38,7 @@ body{
 }
 .heroMessage{
 	color: #FFF;
-	padding: 15% 10%;
+	padding: 10% 10%;
 	text-align: right;
 }
 .heroMessage h1{
@@ -42,9 +47,10 @@ body{
 	font-family: "Pacifico", cursive;
 	text-align: left;
 }
-.heroMessage h2{
-	text-align: left;
-	margin-left: 5%;
+.tipeo{
+	text-align: center;
+    font-size: 2.3em;
+    margin-bottom: 4%;
 }
 .socialText{
 	text-transform: uppercase;
@@ -52,7 +58,7 @@ body{
     letter-spacing: 2px;
     text-align: center;
 }
-/********ABOUT*******/
+/********aboutSection******/
 .perfil{
 	background-image: url(../img/example.jpg);
 	background-position: 30% 30%;
@@ -70,6 +76,10 @@ body{
 	font-weight: bold;
 	text-decoration: line-through;
 }
+.youtube:visited{
+	color: #834F65;
+	font-weight: bold;
+}
 #changeWord{
 	font-size: 2.8em;
 	font-weight: bold;
@@ -80,11 +90,11 @@ body{
 	margin-left: 2%;
 }
 /*-----Habilidades---*/
-.skill{
+.hab{
 	background-image: url(../img/cubes.png);
 	background-repeat: repeat;
 }
-.skill p:first-child{
+.hab p:first-child{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 1.2em;
@@ -152,7 +162,7 @@ body{
 }
 /*-----footer----*/
 .ending{
-	background-color: #484d60;
+	background-color: #31416c;
 	color: #fff;
 	padding: 3% 0%;
 	text-align: center;
@@ -178,7 +188,7 @@ body{
 }
 @media (max-width: 882px){
 	.heroMessage{
-		padding: 8%;
+		padding: 8% 4%;
 	}
 }
 @media (max-width: 768px){
@@ -186,12 +196,10 @@ body{
 	.navbar-change{
 		padding: 0px;
 	}
-	/* ***HERO**/
+	/****HERO**/
 	.heroMessage{
 		padding: 10% 6%;
 	}
-	/*-----about----*/
-	
 	/******PROYECTOS*****/
 	.card{
 		width: 70%;
@@ -199,7 +207,7 @@ body{
 	.imgProject{
 		width: 70%; 
 	}
-	/****SKILL***/
+	/****habSection***/
 	.iconos{
 		width: 48%;
 	}
@@ -226,16 +234,12 @@ body{
 		padding: 0 0 0.3em 0;
 		font-size: 4em;
 	}
-	.heroMessage h2{
-		text-align: center;
-		margin-left: 0;
-	}
-    /****ABOUT**/
+    /****aboutSection**/
     #changeWord{
 		font-size: 2em;
 	}
-    /***SKILL***/
-    #skill p:first-child{
+    /***habSection***/
+    #habSection p:first-child{
 		font-size: 1em;
 	}
     .power {

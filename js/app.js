@@ -7,7 +7,7 @@ var alturaNav = $("header").outerHeight();
 var transparente = function(){
 	scroll_start = $(this).scrollTop();
 	if(scroll_start > offset.top) {
-		$(".navbar-default").css('background-color', '#3D5C4A');
+		$(".navbar-default").css('background-color', '#31416c');
 	} else {
 		$('.navbar-default').css('background-color', 'transparent');
 	}
@@ -20,7 +20,7 @@ var secciones = function(){
 		scrollTop: $(ref).offset().top - alturaNav
 		}, 1000)
 }
-//----skills
+//----habilidades
 var movimiento = function(){
 	$(this).addClass("animated rubberBand");
 }
@@ -41,7 +41,21 @@ var iniciar = function(){
         selector: "span",
         repeat:true
       });
-	//----skills
+	//hero
+	$(function(){
+	    $("#typed").typed({
+	        // palabras
+	        stringsElement: $('#typed-strings'),
+	        typeSpeed: 30,
+	        backDelay: 500,
+	        loop: false,
+	        contentType: 'html', // or text
+	        // defaults to false for infinite loop
+	        loopCount: false,
+	    });
+
+	});
+	//----habilidades
 	var skill = $(".iconos img");
 	skill.mouseenter(movimiento);
 	skill.mouseleave(quitar);
