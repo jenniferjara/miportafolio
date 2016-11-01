@@ -65,16 +65,17 @@ body{
 	background-image: url(../img/example.jpg);
 	background-position: 30% 30%;
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 20em;
 	cursor:pointer;
 }
-.aboutText{
+.descripcion{
 	padding: 5% 6% 0% 6%;
 	font-size: 1.2em;
 	text-align: justify;
     letter-spacing: 0.2px;
 }
-.youtube{font-weight: bolder;}
+.youtube{font-weight: bold;}
 .youtube:hover{
 	color: #834F65;
 	font-weight: bold;
@@ -82,7 +83,7 @@ body{
 }
 .youtube:visited{
 	color: #834F65;
-	font-weight: bold;
+	text-decoration: none;
 }
 #changeWord{
 	font-size: 2.8em;
@@ -134,15 +135,25 @@ body{
   height: 100%;
 }
 .card .back {
-  background: #eaeaed;
+  background: #ad7e7e;
   transform: rotateY(180deg);
   position: absolute;
   top: 0;
   color: #333;
   font-size: 2em;
   text-transform: uppercase;
+  
 }
-.col-sm-4 .card .back {font-size: 1.3em;}
+.card .back a{
+	font-size: 1.1em;
+	color: #fff;
+}
+.card .back a:hover{
+	border: 2px dashed #fff;
+	border-radius: 6px;
+	padding: 2%;
+}
+
 /*-----contact------*/
 .contacto{
 	background-image: url("../img/contacto.jpg");

@@ -48,10 +48,14 @@
     .power {font-size: 2em;}
     
     /*****PROYECTOS***/
-    .col-sm-6 .card .back{font-size: 1.3em;}
+    .card .back a{font-size: 1em;}
 }
-@media (max-width: 490px){
-	.tipeo{font-size: 2em;}
+@media (max-width: 480px){
+	.tipeo{font-size: 1.5em;}
 	.heroMessage h1{font-size: 3em;}
 	.title{font-size: 2em;}
+}
+@media (max-width: 350px){
+	.tipeo{font-size: 1em;}
+	.heroMessage h1{font-size: 2em;}
 }
