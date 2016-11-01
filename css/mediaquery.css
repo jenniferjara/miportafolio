@@ -18,8 +18,7 @@
 
 	/******PROYECTOS*****/
 	.card{width: 75%;}
-	.imgProject{width: 75%;}
-
+	.card .back a{font-size: 0.8em;}
 	/****habSection***/
 	.iconos{width: 48%;}
 
@@ -48,7 +47,7 @@
     .power {font-size: 2em;}
     
     /*****PROYECTOS***/
-    .card .back a{font-size: 1em;}
+    .card .back a{font-size: 0.6em;}
 }
 @media (max-width: 480px){
 	.tipeo{font-size: 1.5em;}

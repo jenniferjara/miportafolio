@@ -33,6 +33,7 @@ body{
 /***-----HERO------*/
 .heroIntro{
 	background: url(../img/hero-bg.jpg);
+	background-color: #777;
 	background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -70,19 +71,23 @@ body{
 	cursor:pointer;
 }
 .descripcion{
-	padding: 5% 6% 0% 6%;
-	font-size: 1.2em;
-	text-align: justify;
+	padding: 4% 6%;
+    font-size: 1.2em;
+    text-align: center;
     letter-spacing: 0.2px;
 }
-.youtube{font-weight: bold;}
-.youtube:hover{
+.youtube{
+	display: inline-block;
+	margin-top: 2%;
 	color: #834F65;
+	font-weight: bold;
+}
+.youtube:hover{
+	color: #6CB5AC;
 	font-weight: bold;
 	text-decoration: line-through;
 }
-.youtube:visited{
-	color: #834F65;
+.youtube a{
 	text-decoration: none;
 }
 #changeWord{
@@ -153,7 +158,11 @@ body{
 	border-radius: 6px;
 	padding: 2%;
 }
-
+.projectText{
+	padding: 4% 6%;
+    font-size: 1.1em;
+    letter-spacing: 0.2px;
+}
 /*-----contact------*/
 .contacto{
 	background-image: url("../img/contacto.jpg");
@@ -163,10 +172,6 @@ body{
 	color: #fff;
 }
 .contacto h2{color: #fff;}
-.contacto p{
-	letter-spacing: 2px;
-    font-size: 1.2em;
-}
 .contacto a{color: #fff;}
 .contacto a:hover{color: #6CB5AC;}
 
@@ -174,7 +179,7 @@ body{
 .ending{
 	background-color: #2a344e;
 	color: #fff;
-	padding: 2% 0%;
+	padding: 2%;
 	text-align: center;
 }
 .ending i {
