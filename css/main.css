@@ -12,7 +12,14 @@ body{
 	background-attachment: fixed;
 	background-color: #f4f4f4;
 }
-
+a{color: #333;}
+a:hover {
+	text-decoration: none;
+	color: #6CB5AC;
+}
+a:visited{
+	text-decoration: none;
+}
 /*-----navbar-----*/
 .navbar-change{
 	background-color: transparent;
