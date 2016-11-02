@@ -7,19 +7,12 @@ body{
 	margin: 0px;
 	height: 100vh;
 	width: 100%;
-	background-image: url(../img/cubes.png);
+	background-image: url(../img/cubes.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-color: #f4f4f4;
 }
-a{color: #333;}
-a:hover {
-	text-decoration: none;
-	color: #6CB5AC;
-}
-a:visited{
-	text-decoration: none;
-}
+
 /*-----navbar-----*/
 .navbar-change{
 	background-color: transparent;
@@ -80,7 +73,6 @@ a:visited{
 .descripcion{
 	padding: 4% 6%;
     font-size: 1.2em;
-    text-align: center;
     letter-spacing: 0.2px;
 }
 .youtube{
@@ -100,17 +92,18 @@ a:visited{
 #changeWord{
 	font-size: 2.8em;
 	font-weight: bold;
-	padding: 6% 0%;
+	padding-top: 6%;
 }
 #changeWord span{
 	color: #834F65;
 	margin-left: 2%;
 }
 /*-----Habilidades---*/
-.hab p:first-child{
+#habSection p:first-child{
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 1.2em;
+	font-size: 1.7em;
+	margin-bottom: 4%;
 } 
 .power {
 	font-size: 3em;
@@ -122,6 +115,13 @@ a:visited{
 	display: inline-block;
 	width: 24%;
 	padding: 2%;
+}
+.cursos{
+	font-family: "BebasNeue", cursive;
+	font-size: 2em;
+    letter-spacing: 1px;
+    margin: 4% 0%;
+    color: #444;
 }
 /*-----PROJECT-----*/
 .imgProject{

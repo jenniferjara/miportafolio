@@ -40,10 +40,13 @@
 		font-size: 4em;
 	}
     /****aboutSection**/
-    #changeWord{font-size: 2em;}
+    #changeWord{
+    	font-size: 2em;
+    	padding-top: 3%;
+    }
 
     /***habSection***/
-    #habSection p:first-child{font-size: 1.4em;}
+    #habSection p:first-child{font-size: 1.2em;}
     .power {font-size: 2em;}
     
     /*****PROYECTOS***/
