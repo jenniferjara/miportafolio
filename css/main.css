@@ -132,6 +132,8 @@ body{
 	display: block;
 	max-width: 650px;
 	margin: 0 auto;
+	transform-style: preserve-3d;
+	transition: all 1s ease-in-out;
 }
 .card .side{
 	color: white;
