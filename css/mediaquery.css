@@ -1,6 +1,7 @@
 /****media***/
 @media (max-width: 1024px){
     .navbar-brand{padding: 5px 30px;}
+    .navbar-default .navbar-collapse{background-color: transparent;}
 }
 @media (max-width: 982px){
 	.socialText{letter-spacing: 0px;}
@@ -9,10 +10,12 @@
 @media (max-width: 882px){
 	.heroMessage{padding: 8% 4%;}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	/*---NAVBAR---*/
 	.navbar-change{padding: 0px;}
-
+	.navbar-default .navbar-collapse{
+		background-color: rgba(0, 0, 0, 0.5); 
+	}
 	/****HERO**/
 	.heroMessage{padding: 10% 6%;}
 

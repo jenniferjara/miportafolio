@@ -7,18 +7,17 @@ var alturaNav = $("header").outerHeight();
 var transparente = function(){
 	scroll_start = $(this).scrollTop();
 	if(scroll_start > offset.top) {
-		$(".navbar-default").css('background-color', '#31416c');
+		$(".navbar-default").css("background-color", "#31416c");
+		$(".navbar-default .navbar-collapse").css("background-color", "#31416c");
 	} else {
-		$('.navbar-default').css('background-color', 'transparent');
+		$('.navbar-default').css("background-color", "transparent");
+		$(".navbar-default .navbar-collapse").css("background-color", "transparent");
 	}
 }
 //---secciones de navbar
 var secciones = function(){
 	var ref = $(this).attr("href");
-	
-	$("html body").animate({
-		scrollTop: $(ref).offset().top - alturaNav
-		}, 1000)
+	$("html body").animate({scrollTop: $(ref).offset().top - alturaNav}, 1000)
 }
 //----habilidades
 var movimiento = function(){
@@ -32,6 +31,9 @@ var iniciar = function(){
 	if (startchange.length){
 		$(document).scroll(transparente);
 	}
+	$('.navbar-collapse ul li a').click(function() {
+	    $('.navbar-toggle:visible').click();
+	});
 	//---secciones de navbar
 	$("header a").click(secciones);
 	//----about me
@@ -46,9 +48,9 @@ var iniciar = function(){
 	    $("#typed").typed({
 	        // palabras
 	        stringsElement: $('#typed-strings'),
-	        typeSpeed: 30,
-	        backDelay: 500,
-	        loop: false,
+	        typeSpeed: 100,
+	        backDelay: 900,
+	        loop: true,
 	        contentType: 'html', // or text
 	        // defaults to false for infinite loop
 	        loopCount: false,
@@ -59,6 +61,5 @@ var iniciar = function(){
 	var skill = $(".iconos img");
 	skill.mouseenter(movimiento);
 	skill.mouseleave(quitar);
-	
 }
 $(document).ready(iniciar);
