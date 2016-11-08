@@ -4,7 +4,7 @@
     .navbar-default .navbar-collapse{background-color: transparent;}
 }
 @media (max-width: 982px){
-	.socialText{letter-spacing: 0px;}
+	/* .socialText{letter-spacing: 0px;} */
 	.heroMessage h1{font-size: 5em;}
 }
 @media (max-width: 882px){
@@ -20,8 +20,8 @@
 	.heroMessage{padding: 10% 6%;}
 
 	/******PROYECTOS*****/
-	.card{width: 75%;}
-	.card .back a{font-size: 0.8em;}
+	.imgProject{width: 75%;}
+	.projectText{font-size: 1em;}
 	/****habSection***/
 	.iconos{width: 48%;}
 
