@@ -10,14 +10,17 @@ var transparente = function(){
 		$(".navbar-default").css("background-color", "#31416c");
 		$(".navbar-default .navbar-collapse").css("background-color", "#31416c");
 	} else {
-		$('.navbar-default').css("background-color", "transparent");
+		$(".navbar-default").css("background-color", "transparent");
 		$(".navbar-default .navbar-collapse").css("background-color", "transparent");
 	}
 }
 //---secciones de navbar
 var secciones = function(){
 	var ref = $(this).attr("href");
-	$("html body").animate({scrollTop: $(ref).offset().top - alturaNav}, 1000)
+	
+	$("html body").animate({
+		scrollTop: $(ref).offset().top - alturaNav
+		}, 800)
 }
 //----habilidades
 var movimiento = function(){

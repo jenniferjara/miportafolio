@@ -67,7 +67,7 @@ body{
 	cursor:pointer;
 }
 .descripcion{
-	padding: 4% 6%;
+	padding: 6% 6% 0% 6%;
     font-size: 1.2em;
     letter-spacing: 0.2px;
 }
@@ -86,7 +86,7 @@ body{
 	text-decoration: none;
 }
 #changeWord{
-	font-size: 2.8em;
+	font-size: 3em;
 	font-weight: bold;
 	padding-top: 6%;
 }
@@ -131,7 +131,6 @@ body{
 	padding: 2% 8%;
     letter-spacing: 0.2px;
     font-size: 1.1em;
-    text-align: justify;
 }
 /*-----contact------*/
 .contacto{
