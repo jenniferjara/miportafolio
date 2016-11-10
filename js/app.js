@@ -30,6 +30,7 @@ var quitar = function(){
 	$(this).removeClass("animated rubberBand")
 }
 var iniciar = function(){
+	new WOW().init();
 	//----navbar
 	if (startchange.length){
 		$(document).scroll(transparente);

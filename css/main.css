@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 
 body{
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -86,24 +87,32 @@ body{
 	text-decoration: none;
 }
 #changeWord{
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: bold;
 	padding-top: 6%;
 }
 #changeWord span{
 	color: #834F65;
 	margin-left: 2%;
+	font-family: "Bangers", cursive;
 }
 /*-----Habilidades---*/
+#habSection{
+	background-image: url("../img/habilidades.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 #habSection p:first-child{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 1.7em;
-	margin-bottom: 4%;
+	margin-bottom: 3%;
 } 
 .power {
 	font-size: 3em;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 .power i{margin-left: 22px;}
 .icon-hab{padding: 2% 3%;}
@@ -113,7 +122,7 @@ body{
 	padding: 2%;
 }
 .cursos{
-	font-family: "BebasNeue", cursive;
+	font-family: "Bangers", cursive;
 	font-size: 2em;
     letter-spacing: 1px;
     margin: 4% 0%;
@@ -123,7 +132,13 @@ body{
 .imgProject{
 	width: 90%;
 	border-radius: 8px;
+	visibility: visible;
+    animation-duration: 4s;
+    animation-delay: 300ms;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
 }
+
 .tab-content .tab-pane {padding: 5% 4%;}
 .portfolio-item {margin: 10px 0px 30px 0px;}
 
@@ -140,9 +155,18 @@ body{
 	background-size: cover;
 	color: #fff;
 }
-.contacto h2{color: #fff;}
-.contacto a{color: #fff;}
+.contacto h2{
+	color: #fff;
+}
+.contacto a{
+	color: #fff;
+	padding: 3% 0%;
+}
 .contacto a:hover{color: #6CB5AC;}
+.contacto p{
+	padding: 2% 6% 8% 6%;
+	text-align: left;
+}
 
 /*-----footer----*/
 .ending{
