@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
@@ -6,8 +7,6 @@ body{
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
-	height: 100vh;
-	width: 100%;
 }
 
 /*-----navbar-----*/
@@ -121,10 +120,11 @@ body{
 	width: 24%;
 	padding: 2%;
 }
+.iconos img{width: 90%}
 .cursos{
 	font-family: "Bangers", cursive;
-	font-size: 2em;
-    letter-spacing: 1px;
+	font-size: 1.5em;
+    letter-spacing: 1.5px;
     margin: 4% 0%;
     color: #444;
 }
@@ -146,6 +146,11 @@ body{
 	padding: 2% 8%;
     letter-spacing: 0.2px;
     font-size: 1.1em;
+}
+.btn-project{
+	border: 1px solid #666;
+	margin: 2%;
+	text-transform: uppercase;
 }
 /*-----contact------*/
 .contacto{
