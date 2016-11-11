@@ -1,14 +1,3 @@
-/*--general--*/
-a{color: #333;}
-a:hover {
-	text-decoration: none;
-	color: #6CB5AC;
-}
-a:visited{
-	text-decoration: none;
-}
-h2{margin-top: 14px;}
-
 /*--display--*/
 .flex {
 	display: flex;
@@ -37,12 +26,11 @@ h2{margin-top: 14px;}
 	padding: 2% 3%;
     font-size: 1.3em;
 }
-
 /*-------otros--------*/
 .h-vh{height: 100vh;}
 .dashed{border-bottom: 2px dashed #777;}
 .m-3{margin: 3% 3% 3% 0%;}
-.pd{padding: 8% 2%;}
+.pd{padding: 7% 2%;}
 .ws{white-space: pre;}
 .title{
 	font-family: "Bangers";

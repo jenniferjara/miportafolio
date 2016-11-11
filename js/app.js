@@ -2,7 +2,7 @@
 var scroll_start = 0;
 var startchange = $('#cambio');
 var offset = startchange.offset();
-var alturaNav = $("#inicio").outerHeight();
+var alturaNav = $("header").outerHeight();
 
 var transparente = function(){
 	scroll_start = $(this).scrollTop();
