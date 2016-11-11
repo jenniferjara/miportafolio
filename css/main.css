@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
-body{
-	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+*{
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
 }
-
+body{
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 /*-----navbar-----*/
 .navbar-change{
 	background-color: transparent;
 	border: none;
-	padding: 5px 0px;
+	padding: 0.7em;
+    margin-bottom: 0;
 }
 .navbar-default .navbar-nav > li > a{color: #fff;}
 .navbar-default .navbar-nav > li > a:hover{
@@ -100,6 +102,7 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 #habSection p:first-child{
 	text-transform: uppercase;
@@ -147,9 +150,14 @@ body{
     font-size: 1.1em;
 }
 .btn-project{
-	border: 1px solid #666;
+	border: 1px solid #777;
 	margin: 2%;
 	text-transform: uppercase;
+}
+.btn-project:hover{
+	border: 1px solid #6CB5AC;
+	color: #6CB5AC;
+	transform: translate3d();
 }
 /*-----contact------*/
 .contacto{
@@ -188,3 +196,70 @@ body{
 	font-weight: bold;
 }
 .ending a:hover{color: #6CB5AC;}
+
+/****media***/
+@media (max-width: 1024px){
+    .navbar-brand{padding: 5px 30px;}
+    .navbar-default .navbar-collapse{background-color: transparent;}
+}
+@media (max-width: 982px){
+	/* .socialText{letter-spacing: 0px;} */
+	.heroMessage h1{font-size: 5em;}
+}
+@media (max-width: 882px){
+	.heroMessage{padding: 8% 4%;}
+}
+@media (max-width: 767px){
+	/*---NAVBAR---*/
+	.navbar-change{padding: 0px;}
+	.navbar-default .navbar-collapse{
+		background-color: rgba(0, 0, 0, 0.5); 
+	}
+	/****HERO**/
+	.heroMessage{padding: 10% 6%;}
+
+	/******PROYECTOS*****/
+	.imgProject{width: 75%;}
+	.projectText{font-size: 1em;}
+	/****habSection***/
+	.iconos{width: 48%;}
+
+	/******contacto****/
+}
+@media (max-width: 640px){
+	/******NAVBAR*****/
+	.navbar-brand img {display: none;}
+	.navbar-brand{padding: 5px 20px;}
+
+    /****HERO**/
+	.heroMessage {
+		text-align: center;
+	    padding: 6% 4% 10% 4%;
+	}
+	.heroMessage h1{
+		text-align: center;
+		padding: 0 0 0.3em 0;
+		font-size: 4em;
+	}
+    /****aboutSection**/
+    #changeWord{
+    	font-size: 2.5em;
+    	padding-top: 3%;
+    }
+
+    /***habSection***/
+    #habSection p:first-child{font-size: 1.2em;}
+    .power {font-size: 2em;}
+    
+    /*****PROYECTOS***/
+    .card .back a{font-size: 0.6em;}
+}
+@media (max-width: 480px){
+	.tipeo{font-size: 1.5em;}
+	.heroMessage h1{font-size: 3em;}
+	.title{font-size: 2em;}
+}
+@media (max-width: 350px){
+	.tipeo{font-size: 1em;}
+	.heroMessage h1{font-size: 2em;}
+}

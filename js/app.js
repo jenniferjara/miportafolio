@@ -2,7 +2,7 @@
 var scroll_start = 0;
 var startchange = $('#cambio');
 var offset = startchange.offset();
-var alturaNav = $("header").outerHeight();
+var alturaNav = $("#inicio").outerHeight();
 
 var transparente = function(){
 	scroll_start = $(this).scrollTop();
@@ -20,7 +20,7 @@ var secciones = function(){
 	
 	$("html body").animate({
 		scrollTop: $(ref).offset().top - alturaNav
-		}, 800)
+		}, 1000)
 }
 //----habilidades
 var movimiento = function(){
