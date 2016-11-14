@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
-@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
 
 /*--general--*/
 *{
@@ -105,7 +105,7 @@ h2{margin-top: 14px;}
 #changeWord span{
 	color: #834F65;
 	margin-left: 2%;
-	font-family: "Bangers", cursive;
+	font-family: 'Boogaloo', cursive;
 }
 /*-----Habilidades---*/
 #habSection{
@@ -127,7 +127,11 @@ h2{margin-top: 14px;}
 	text-transform: uppercase;
 	font-weight: bold;
 }
-.power i{margin-left: 22px; font-size: 1.6em;}
+.power i{
+	color: #834F65;
+	margin-left: 22px; 
+	font-size: 1.6em;
+}
 .icon-hab{padding: 2% 3%;}
 .iconos{
 	display: inline-block;
@@ -136,11 +140,11 @@ h2{margin-top: 14px;}
 }
 .iconos img{width: 70%}
 .cursos{
-	font-family: "Bangers", cursive;
-	font-size: 1.5em;
-    letter-spacing: 1.5px;
+	font-family: 'Boogaloo', cursive;
+	font-size: 1.8em;
     margin: 4% 0%;
     color: #444;
+    text-transform: uppercase;
 }
 /*-----PROJECT-----*/
 .imgProject{
@@ -164,12 +168,16 @@ h2{margin-top: 14px;}
 .btn-project{
 	border: 1px solid #777;
 	margin: 2%;
+	padding: 2% 3%;
 	text-transform: uppercase;
+	transition: all 0.6s;
 }
 .btn-project:hover{
-	border: 1px solid #6CB5AC;
-	color: #6CB5AC;
-	transform: translate3d();
+	border: 1.5px solid #B57985;
+	box-shadow: 0 4px 5px #B57985;
+	color: #B57985;
+	font-weight: bold;
+	transform: translateY(-3px);
 }
 /*-----contact------*/
 .contacto{
@@ -271,4 +279,5 @@ h2{margin-top: 14px;}
 @media (max-width: 350px){
 	.tipeo{font-size: 1em;}
 	.heroMessage h1{font-size: 2em;}
+	.cursos{font-size: 1em;}
 }

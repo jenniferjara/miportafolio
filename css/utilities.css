@@ -33,11 +33,9 @@
 .pd{padding: 8% 2%;}
 .ws{white-space: pre;}
 .title{
-	font-family: "Bangers";
+	font-family: 'Boogaloo', cursive;
 	display: inline-block;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	text-align: center;
 	margin-bottom: 6%;
 	font-size: 3.5em;
 	color: #333;
