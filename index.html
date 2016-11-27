@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-	<link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<link type="text/css" rel="stylesheet" href="css/font-awesome.css">
 	<link type="text/css" rel="stylesheet" href="css/vendor/fonts.css">
 	<link type="text/css" rel="stylesheet" href="css/vendor/animate.css">
 	<link type="text/css" rel="stylesheet" href="css/vendor/bootstrap.min.css">
@@ -17,11 +17,11 @@
 	<link type="text/css" rel="stylesheet" href="css/main.css">
 	<link rel="shortcut icon" href="img/favicon.png">
 </head>
-<body id="inicio">
+<body id="inicio" data-spy="scroll" data-target=".navbar" data-offset="150">
 	<!---navbar-->
 	<header>
 		<nav class="navbar navbar-default navbar-fixed-top navbar-change">
-			<div class="">
+			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>
@@ -206,7 +206,7 @@
 						<div class="col-sm-6 portfolio-item">
 							<img class="imgProject center-block" src="img/previa/user.png" alt="user">
 							<h3 class="socialText">user 360°</h3>
-							<p class="projectText">El siguiente landing page fue trabajado con el framework bootstrap y  tambien utilizando jquery para el efecto de cambio de color en el navbar al hacer scroll.</p>
+							<p class="projectText">El siguiente landing page fue trabajado con el framework bootstrap y tambien utilizando jquery para el efecto de cambio de color en el navbar al hacer scroll.</p>
 							<div class="text-center">
 								<a class="btn btn-project hvr-icon-wobble-horizontal" target="_blank" href="https://jenniferjara.github.io/user-360">Ver el demo</a>
 								<a class="btn btn-project hvr-icon-wobble-horizontal" target="_blank" href="https://github.com/jenniferjara/user-360">Ver en Github</a>
@@ -215,12 +215,12 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-6 portfolio-item">
-							<img class="imgProject center-block" src="img/previa/eco.png" alt="ecomunidad">
-							<h3 class="socialText">ecomunidad</h3>
-							<p class="projectText">En este landing page fue trabajado con grillas y media query.</p>
+							<img class="imgProject center-block" src="img/previa/beatles.png" alt="ecomunidad">
+							<h3 class="socialText">The Beatles</h3>
+							<p class="projectText">El siguiente landing page utilice Bootstrap para la construcción del landing apoyandome en su grilla y también en sus clases CSS.</p>
 							<div class="text-center">
-								<a class="btn btn-project hvr-icon-wobble-horizontal" target="_blank" href="https://jenniferjara.github.io/ecomunidad">Ver el demo</a>
-								<a class="btn btn-project hvr-icon-wobble-horizontal" target="_blank" href="https://github.com/jenniferjara/ecomunidad">Ver en Github</a>
+								<a class="btn btn-project hvr-icon-wobble-horizontal" target="_blank" href="https://jenniferjara.github.io/landing-beatles/">Ver el demo</a>
+								<a class="btn btn-project hvr-icon-wobble-horizontal" target="_blank" href="https://github.com/jenniferjara/landing-beatles">Ver en Github</a>
 							</div>
 						</div>
 						<div class="col-sm-6 portfolio-item">
@@ -264,8 +264,10 @@
 	<!---secciones-->
 	<!---pie de página-->
 	<footer class="ending">
-		<span><i class="fa fa-rebel"></i>Copyright © 2016 - Jennifer Jara Rojas</span>
-		<a target="_blank" href="https://twitter.com/jenlisbet"><i class="fa fa-twitter"></i></a>
+		<p class="text-center">
+			<span><i class="fa fa-rebel"></i>Copyright © 2016 - Jennifer Jara Rojas</span>
+			<a target="_blank" href="https://twitter.com/jenlisbet"><i class="fa fa-twitter"></i></a>
+		</p>
 	</footer>
 	<!---pie de página-->
 
