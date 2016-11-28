@@ -4,15 +4,12 @@
 	align-items: center;
 	justify-content: center;
 }
-.dNone{display: none;}
-
 /*----background----*/
 .grisClaro{background-color: #F2F2F2;}
 .grisOscuro{background-color: #777;}
 .bg-blanco{background-color: #fff;}
 
-/*-------color---*/
-.white{color: #fff;}
+/*----botones---*/
 .botones{
 	border: 1px solid #fff;
 	color: #fff;
@@ -28,6 +25,12 @@
 }
 /*-------otros--------*/
 .h-vh{height: 100vh;}
+.dNone{display: none;}
+.white{color: #fff;}
+.icon-final {
+	margin: 0% 0.8% 0% 0.8%;
+	font-size: 1em;
+}
 .dashed{border-bottom: 2px dashed #777;}
 .m-3{margin: 3% 3% 3% 0%;}
 .pd{padding: 6% 2%;}

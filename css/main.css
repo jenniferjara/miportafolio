@@ -38,6 +38,10 @@ h2{margin-top: 14px;}
 }
 .navbar-default .navbar-brand{color: #fff;}
 .navbar-default .navbar-brand:hover{color: #6CB5AC;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #6CB5AC;
+    color: #fff;
+}
 /***-----HERO------*/
 .heroIntro{
 	background: url(../img/hero-bg.jpg);
@@ -45,7 +49,8 @@ h2{margin-top: 14px;}
 	background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 60px;
+    padding-top: 80px;
+    height: 100vh;
 }
 .heroMessage{
 	color: #FFF;
@@ -71,15 +76,16 @@ h2{margin-top: 14px;}
 }
 /********aboutSection******/
 .perfil{
-	background-image: url(../img/example.jpg);
-	background-position: 30% 30%;
+	background-image: url(../img/perfil.jpg);
+	background-position: 50% 30%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 20em;
+	margin: 5%;
 	cursor:pointer;
 }
 .descripcion{
-	padding: 6% 6% 0% 6%;
+	padding: 5% 5% 0% 5%;
     font-size: 1.2em;
     letter-spacing: 0.2px;
 }
@@ -195,19 +201,15 @@ h2{margin-top: 14px;}
 }
 .contacto a:hover{color: #6CB5AC;}
 .contacto p{
-	padding: 2% 6% 8% 6%;
+	padding: 2% 6% 4% 6%;
 	text-align: left;
+	font-size: 1.3em;
 }
-
 /*-----footer----*/
 .ending{
 	background-color: #2a344e;
 	color: #fff;
-	padding: 3% 2%;
-}
-.ending i {
-	margin: 0% 0.8% 0% 0.8%;
-	font-size: 1em;
+	padding: 2% 2%;
 }
 .ending a{color: #fff;}
 .ending a:hover{color: #6CB5AC;}
@@ -238,7 +240,7 @@ h2{margin-top: 14px;}
 	.projectText{font-size: 1em;}
 	/****habSection***/
 	.iconos{width: 48%;}
-
+	.iconos img {width: 50%;}
 	/******contacto****/
 }
 @media (max-width: 640px){
