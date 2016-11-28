@@ -4,6 +4,7 @@
 	align-items: center;
 	justify-content: center;
 }
+hr{border-top: 3px solid #eee;}
 /*----background----*/
 .grisClaro{background-color: #F2F2F2;}
 .grisOscuro{background-color: #777;}
