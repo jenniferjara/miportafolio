@@ -44,7 +44,7 @@ h2{margin-top: 14px;}
 }
 /***-----HERO------*/
 .heroIntro{
-	background: url(../img/hero-bg.jpg);
+	background: url(../assets/img/hero-bg.jpg);
 	background-color: #777;
 	background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +76,7 @@ h2{margin-top: 14px;}
 }
 /********aboutSection******/
 .perfil{
-	background-image: url(../img/perfil.jpg);
+	background-image: url(../assets/img/perfil.jpg);
 	background-position: 50% 30%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -91,9 +91,9 @@ h2{margin-top: 14px;}
 }
 .youtube{
 	display: inline-block;
-	margin-top: 2%;
 	color: #834F65;
 	font-weight: bold;
+	font-size: 1.1em;
 }
 .youtube:hover{
 	color: #6CB5AC;
@@ -115,7 +115,7 @@ h2{margin-top: 14px;}
 }
 /*-----Habilidades---*/
 #habSection{
-	background-image: url("../img/habilidades.jpg");
+	background-image: url("../assets/img/habilidades.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -144,7 +144,7 @@ h2{margin-top: 14px;}
 	width: 24%;
 	padding: 2%;
 }
-.iconos img{width: 70%}
+.iconos-img{width: 70%}
 .cursos{
 	font-family: 'Boogaloo', cursive;
 	font-size: 1.8em;
@@ -186,15 +186,13 @@ h2{margin-top: 14px;}
 }
 /*-----contact------*/
 .contacto{
-	background-image: url("../img/contacto.jpg");
+	background-image: url("../assets/img/contacto.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
 }
-.contacto h2{
-	color: #fff;
-}
+.contacto h2{color: #fff;}
 .contacto a{
 	color: #fff;
 	padding: 3% 0%;
@@ -239,7 +237,7 @@ h2{margin-top: 14px;}
 	.projectText{font-size: 1em;}
 	/****habSection***/
 	.iconos{width: 48%;}
-	.iconos img {width: 50%;}
+	.iconos-img {width: 50%;}
 	/******contacto****/
 }
 @media (max-width: 640px){

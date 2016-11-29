@@ -63,7 +63,7 @@
 
 		});
 		//----habilidades
-		var skill = $(".iconos img");
+		var skill = $(".iconos-img");
 		skill.mouseenter(movimiento);
 		skill.mouseleave(quitar);
 	}
