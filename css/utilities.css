@@ -38,10 +38,14 @@ hr{border-top: 3px solid #eee;}
 .ws{white-space: pre;}
 .title{
 	font-family: 'Boogaloo', cursive;
-	display: inline-block;
-	text-transform: uppercase;
-	margin-bottom: 5%;
 	font-size: 3.5em;
 	color: #333;
-	border-bottom: 4px solid #6CB5AC;
+}
+.title:after {
+    content: " ";
+    display: block;
+    width: 30%;
+    height: 2px;
+    margin: 10px 0 20px;
+    background: #6CB5AC;
 }

@@ -13,9 +13,7 @@ a:hover {
 	text-decoration: none;
 	color: #6CB5AC;
 }
-a:visited{
-	text-decoration: none;
-}
+a:visited{text-decoration: none;}
 h2{margin-top: 14px;}
 
 /*-----navbar-----*/
@@ -30,12 +28,8 @@ h2{margin-top: 14px;}
 	color: #6CB5AC;
 	font-weight: bold;
 }
-.navbar-default .navbar-toggle .icon-bar{
-	background-color: #fff;
-}
-.navbar-header .navbar-toggle:hover{
-	background-color: transparent;
-}
+.navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
+.navbar-header .navbar-toggle:hover{background-color: transparent;}
 .navbar-default .navbar-brand{color: #fff;}
 .navbar-default .navbar-brand:hover{color: #6CB5AC;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -69,7 +63,6 @@ h2{margin-top: 14px;}
     margin-bottom: 4%;
 }
 .socialText{
-	text-transform: uppercase;
     font-size: 1.1em;
     letter-spacing: 2px;
     text-align: center;
@@ -89,19 +82,17 @@ h2{margin-top: 14px;}
     font-size: 1.2em;
     letter-spacing: 0.2px;
 }
-.youtube{
+.youtube a{
 	display: inline-block;
 	color: #834F65;
 	font-weight: bold;
 	font-size: 1.3em;
+	text-decoration: none;
 }
-.youtube:hover{
+.youtube a:hover{
 	color: #6CB5AC;
 	font-weight: bold;
 	text-decoration: line-through;
-}
-.youtube a{
-	text-decoration: none;
 }
 #changeWord{
 	font-size: 4em;
@@ -122,7 +113,6 @@ h2{margin-top: 14px;}
 	background-position: center;
 }
 #habSection p:first-child{
-	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 1.7em;
 	margin-bottom: 3%;
@@ -130,7 +120,6 @@ h2{margin-top: 14px;}
 } 
 .power {
 	font-size: 2.6em;
-	text-transform: uppercase;
 	font-weight: bold;
 }
 .power i{
