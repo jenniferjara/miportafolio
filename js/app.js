@@ -66,6 +66,12 @@
 		var skill = $(".iconos-img");
 		skill.mouseenter(movimiento);
 		skill.mouseleave(quitar);
+
+		//----proyectos
+		$("li[role='presentation']").click(function(){
+			console.log(this);
+			$("div[role='tabpanel']").addClass("wow rollIn");
+		});
 	}
 	$(document).ready(iniciar);
 }());

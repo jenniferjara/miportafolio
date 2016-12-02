@@ -28,7 +28,7 @@ hr{border-top: 3px solid #eee;}
 .h-vh{height: 100vh;}
 .dNone{display: none;}
 .white{color: #fff;}
-.icon-final {
+.icon-final{
 	margin: 0% 1.3% 0% 1.3%;
 	font-size: 1em;
 }
@@ -37,15 +37,10 @@ hr{border-top: 3px solid #eee;}
 .pd{padding: 6% 2%;}
 .ws{white-space: pre;}
 .title{
+	border-bottom: 3px solid #6CB5AC;
+	display: inline-block;
+	color: #333;
+	margin-bottom: 4%;
 	font-family: 'Boogaloo', cursive;
 	font-size: 3.5em;
-	color: #333;
-}
-.title:after {
-    content: " ";
-    display: block;
-    width: 30%;
-    height: 2px;
-    margin: 10px 0 20px;
-    background: #6CB5AC;
 }
