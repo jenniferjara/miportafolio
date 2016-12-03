@@ -80,7 +80,7 @@ h2{margin-top: 14px;}
 } */
 .descripcion{
 	padding: 1% 0%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     letter-spacing: 0.2px;
 }
 .perfil-img{
@@ -98,7 +98,6 @@ h2{margin-top: 14px;}
 .youtube:hover{
 	color: #6CB5AC;
 	font-weight: bold;
-	text-decoration: line-through;
 }
 #changeWord{
 	font-size: 4em;
@@ -180,9 +179,10 @@ h2{margin-top: 14px;}
     letter-spacing: 0.2px;
     font-size: 1.1em;
 }
-.btn-project, .btn-project:hover{
+.btn-project, .btn-project:hover .btn-project:visited{
 	border: 1px solid #834F65;
 	color: #834F65;
+	font-weight: bold;
 	margin: 2%;
 	text-transform: uppercase;
 }
@@ -245,7 +245,7 @@ h2{margin-top: 14px;}
 @media (max-width: 640px){
 	/******NAVBAR*****/
 	.navbar-brand img {display: none;}
-	.navbar-brand{padding: 10px 20px;}
+	.navbar-brand{padding: 7px 20px;}
 
     /****HERO**/
 	.heroMessage {
