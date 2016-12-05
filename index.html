@@ -18,6 +18,8 @@
 	<link rel="shortcut icon" href="assets/img/favicon.png">
 </head>
 <body id="inicio" data-spy="scroll" data-target=".navbar" data-offset="150">
+	<!--LOADING-->
+	<div class="cargar"></div>
 	<!---navbar-->
 	<header>
 		<nav class="navbar navbar-default navbar-fixed-top navbar-change">
@@ -52,13 +54,13 @@
 			<div class="heroMessage">
 				<!-- <h3>Hi! Nice to meet you!</h3> -->
 				<h1 id="nombre" class="animated fadeInDown">Jennifer Jara</h1>
-				<div class="tipeo">
+				<div id="cambio" class="tipeo">
 					<div id="typed-strings">
 						<span>Front-end Developer jr.</span>
 					</div>
 					<span id="typed" class="ws"></span>
 				</div>
-				<a id="cambio" target="_blank" class="btn botones hvr-pulse m-3" href="https://www.linkedin.com/in/jenniferjara">
+				<a target="_blank" class="btn botones hvr-pulse m-3" href="https://www.linkedin.com/in/jenniferjara">
 					<i class="fa fa-linkedin-square fa-fw"></i>
 					<span class="socialText text-uppercase">Linkedin</span>
 				</a>
@@ -83,10 +85,6 @@
 					<p class="descripcion">También me gusta el diseño minimalista, la musica indie rock, las películas de súper héroes y subtitular vídeos de ingles a español.</p><hr/>
 					<a class="youtube" target="_blank" href="https://www.youtube.com/c/je2nifer">(De hecho tengo un canal en Youtube <span class="fa fa-youtube"></span> te invito a visitarlo aquí)</a>
 				</div>
-				<!-- <div class="col-xs-12 col-sm-3">
-					<p class="descripcion">También me gusta el diseño minimalista, la musica indie rock, las películas de súper héroes y subtitular vídeos de ingles a español.</p><hr/>
-					<a class="youtube" target="_blank" href="https://www.youtube.com/c/je2nifer">(De hecho tengo un canal en Youtube, te invito a visitarlo)</a>
-				</div> -->
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
@@ -161,7 +159,7 @@
 	<section id="projectSection" class="pd project">
 		<div class="container">
 			<h2 class="title text-uppercase">mis proyectos</h2>
-			<p class="descripcion">En cada pestaña encontrarás algunos de mis proyectos <span class="glyphicon glyphicon-hand-down icon-final"></span></p>
+			<p class="descripcion">En cada pestaña encontrarás algunos de mis proyectos <span class="glyphicon glyphicon-hand-down icon-final animated infinite bounce"></span></p>
 			<ul class="nav nav-tabs text-uppercase" role="tablist">
 				<li role="presentation" class="active"><a href="#uno" aria-controls="profile" role="tab" data-toggle="tab">1 - 2</a></li>
 				<li role="presentation"><a href="#dos" aria-controls="home" role="tab" data-toggle="tab">3 - 4</a></li>

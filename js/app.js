@@ -1,4 +1,8 @@
 ;(function () {
+	//Loader
+	$(window).load(function() {
+		$(".cargar").fadeOut("slow");
+	});
 	//---navbar
 	var scroll_start = 0;
 	var startchange = $('#cambio');
