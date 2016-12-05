@@ -7,25 +7,21 @@
 	var scroll_start = 0;
 	var startchange = $('#cambio');
 	var offset = startchange.offset();
-	var alturaNav = $("header").outerHeight();
-
 	var transparente = function(){
 		scroll_start = $(this).scrollTop();
 		if(scroll_start > offset.top) {
 			$(".navbar-default").css("background-color", "#31416c");
-			$(".navbar-default .navbar-collapse").css("background-color", "#31416c");
 		} else {
 			$(".navbar-default").css("background-color", "transparent");
-			$(".navbar-default .navbar-collapse").css("background-color", "transparent");
 		}
 	}
 	//---secciones de navbar
+	var alturaNav = $("#inicio").outerHeight();
 	var secciones = function(){
 		var ref = $(this).attr("href");
-		
 		$("html body").animate({
 			scrollTop: $(ref).offset().top - alturaNav
-			}, 1000)
+			}, 1400)
 	}
 	//----habilidades
 	var movimiento = function(){

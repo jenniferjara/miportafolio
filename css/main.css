@@ -47,7 +47,9 @@ h2{margin-top: 14px;}
 	margin-left: 5%;
 	width: 30%;
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
     border-bottom: 3px solid #6CB5AC;
     color: #fff;
     background: transparent;
@@ -243,9 +245,10 @@ h2{margin-top: 14px;}
 }
 @media (max-width: 767px){
 	/*---NAVBAR---*/
-	.navbar-change{padding: 0px;}
 	.navbar-default .navbar-collapse{
-		background-color: rgba(0, 0, 0, 0.5); 
+		background-color: #31416c;
+		padding: 30vh 10%;
+    	max-height: 100vh;
 	}
 	/****HERO**/
 	.heroMessage{padding: 10% 6%;}
