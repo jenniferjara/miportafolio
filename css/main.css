@@ -119,7 +119,7 @@ h2{margin-top: 14px;}
 #changeWord{
 	font-size: 4em;
 	font-weight: bold;
-	padding-top: 6%;
+	padding-top: 50px;
 }
 #changeWord span{
 	color: #834F65;
@@ -197,7 +197,7 @@ h2{margin-top: 14px;}
     letter-spacing: 0.2px;
     font-size: 1.1em;
 }
-.btn-project, .btn-project:hover .btn-project:visited{
+.btn-project, .btn-project:hover, .btn-project:visited{
 	border: 1px solid #834F65;
 	color: #834F65;
 	font-weight: bold;
@@ -280,10 +280,7 @@ h2{margin-top: 14px;}
 		font-size: 4em;
 	}
     /****aboutSection**/
-    #changeWord{
-    	font-size: 2.5em;
-    	padding-top: 3%;
-    }
+    #changeWord{font-size: 2.5em;}
 
     /***habSection***/
     #habSection p:first-child{font-size: 1.2em;}
