@@ -105,16 +105,12 @@ h2{margin-top: 14px;}
     height: auto;
     margin: 1em 0
 }
-.youtube, .youtube:visited{
+.youtube, .youtube:hover, .youtube:visited{
 	display: inline-block;
-	color: #834F65;
+	color: #52968e;
 	font-weight: bold;
 	font-size: 1.3em;
 	text-decoration: none;
-}
-.youtube:hover{
-	color: #6CB5AC;
-	font-weight: bold;
 }
 #changeWord{
 	font-size: 4em;
@@ -122,7 +118,7 @@ h2{margin-top: 14px;}
 	padding-top: 50px;
 }
 #changeWord span{
-	color: #834F65;
+	color: #47877f;
 	margin-left: 2%;
 	font-family: 'Boogaloo', cursive;
 }
@@ -145,7 +141,7 @@ h2{margin-top: 14px;}
 	font-weight: bold;
 }
 .power i{
-	color: #834F65;
+	color: #52968e;
 	margin-left: 22px; 
 	font-size: 1.6em;
 }
