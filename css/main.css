@@ -221,7 +221,7 @@ h2{margin-top: 14px;}
 .contacto a:hover{color: #6CB5AC;}
 .contacto p{
 	padding: 2% 4% 4% 2%;
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 /*-----footer----*/
 .ending{
@@ -289,6 +289,8 @@ h2{margin-top: 14px;}
     
     /*****PROYECTOS***/
     .card .back a{font-size: 0.6em;}
+    /****footer****/
+    .contacto p{font-size: 1.1em;}
 }
 @media (max-width: 480px){
 	.tipeo{font-size: 1.5em;}
