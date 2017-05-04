@@ -105,12 +105,18 @@ h2{margin-top: 14px;}
     height: auto;
     margin: 1em 0
 }
-.youtube, .youtube:hover, .youtube:visited{
+.youtube, .youtube:visited{
 	display: inline-block;
 	color: #52968e;
-	font-weight: bold;
 	font-size: 1.3em;
+	font-weight: bold;
 	text-decoration: none;
+	transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.youtube:hover{
+	color: #834F65;
 }
 #changeWord{
 	font-size: 4em;
@@ -194,9 +200,8 @@ h2{margin-top: 14px;}
     font-size: 1.1em;
 }
 .btn-project, .btn-project:hover, .btn-project:visited{
-	border: 1px solid #834F65;
-	color: #834F65;
-	font-weight: bold;
+	background-color: #834F65;
+	color: #ffffff;
 	margin: 2%;
 	text-transform: uppercase;
 }
@@ -252,6 +257,7 @@ h2{margin-top: 14px;}
 	/******PROYECTOS*****/
 	.imgProject{width: 75%;}
 	.projectText{font-size: 1em;}
+	.col-sm-6 .portfolio-item{border-top: 1px solid #333;}
 	/****habSection***/
 	.iconos{width: 48%;}
 	.iconos-img {width: 50%;}
