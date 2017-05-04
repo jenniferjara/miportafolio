@@ -175,7 +175,7 @@ h2{margin-top: 14px;}
     animation-iteration-count: infinite;
     animation-name: pulse;
 }
-.tab-content .tab-pane {padding: 5% 4%;}
+.tab-content .tab-pane {padding-left: 4%; padding-right: 4%;}
 .portfolio-item {margin: 30px 0px;}
 .nav-tabs {
 	border-bottom: 2px solid #6CB5AC;
@@ -257,7 +257,6 @@ h2{margin-top: 14px;}
 	/******PROYECTOS*****/
 	.imgProject{width: 75%;}
 	.projectText{font-size: 1em;}
-	.col-sm-6 .portfolio-item{border-top: 1px solid #333;}
 	/****habSection***/
 	.iconos{width: 48%;}
 	.iconos-img {width: 50%;}
