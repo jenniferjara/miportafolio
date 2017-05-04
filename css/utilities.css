@@ -36,6 +36,7 @@ hr{border-top: 2px solid #eee;}
 .dashed{border-bottom: 2px dashed #777;}
 .m-3{margin: 3% 3% 3% 0%;}
 .pd{padding: 6% 2%;}
+.section-pad{padding: 2% 2% 6% 2%;}
 .ws{white-space: pre;}
 .title{
 	border-bottom: 3px solid #6CB5AC;
