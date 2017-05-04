@@ -133,7 +133,7 @@ h2{margin-top: 14px;}
 #habSection p:first-child{
 	letter-spacing: 2px;
 	font-size: 1.7em;
-	margin-bottom: 3%;
+	/*margin-bottom: 3%;*/
 	font-weight: bold;
 } 
 .power {
@@ -142,7 +142,7 @@ h2{margin-top: 14px;}
 }
 .power i{
 	color: #52968e;
-	margin-left: 22px; 
+	margin-left: 15px; 
 	font-size: 1.6em;
 }
 .icon-hab{padding: 2% 3%;}
